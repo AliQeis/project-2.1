@@ -2,24 +2,29 @@ body{
     background-color:#121125;
 }
 ul{
-    display: flex;
+    display: absolute;
     background-color: #1B1B38;
     color: #665DD2;
     list-style-type: none;
-    height:374px;
+    height: 15rem;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
     line-height: 54px;
-    
+    top: 0%;
 }
 a{
 display: flex;
 justify-content: space-around;
 flex-direction: row;
+top: 0%;
 }
 .games{
     position: absolute;
-    left: 10rem ;
+    left: 14rem ;
+}
+.portfolio{
+    position: absolute;
+    left: 25rem;
 }
